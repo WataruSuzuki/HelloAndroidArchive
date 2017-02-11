@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class StudyAar {
     public static String TAG = "StudyAar";
-    public void printHelloAndroidArchive() {
+    static public void printHelloAndroidArchive() {
         Log.i(TAG, "printHelloAndroidArchive: " + "(・∀・)");
     }
 }
